@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fonte em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /* Arial, Helvetica, sans-serif é uma self combinetion ou combinação segura= o computador ira colocar no site a primeira opção se não der certo ele escole a segunda (Helvetica) se não der a segunda ele escole a terceira (sans-serif) */
+            /* sans-serif= se você colocar esta tag o proprio navegador irá escolher a font sen serifa */
+            /* serif= se vpcê colocar esta tag o próprio navegador irá escolher a font serifada mais adequada para todos os tipos de aparelhos */ 
+            /* monospace= o navegador irá escolher uma fonte monospace mais adequada para todos os tipos de aparelhos */ 
+            /* Arial= não serifada */
+            /* verdana= serifada */
+            /* Helvetica= semelhante ao Arial */ 
+            font-size: 1em;
+            /*Medidas Absolutas
+            cm, mm, in, px, pt, pc
+             
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            16px geralmente= 1em
+            Só pode usar em site o px e o em o mais recomendado é o em*/
+            /* font-weight: normal; */
+            /* lighter(mais leve) normal(normal) bold(negrito) bolder(mais negrito que o bolder) */
+            /* weight(peso) width(largura) height(altura) */
+            /* font-style: italic;
+            text-decoration: underline; */
+            /* underline(vai ficar negrito itálico e subrinhado) */
+        }
+        h1 {
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            /* shorthand
+            - font-style -> font-weight -> font-family  */
+            /* font: italic bolder 3em 'woerk sans', sans-serif; */
+        }
+        h2 {
+            font: italic bolder 2em 'woerk sans', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus expedita enim voluptatem molestiae numquam a quae possimus, provident explicabo doloremque ipsa error perferendis saepe beatae, quis, corrupti nisi fugit illo.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos, at?</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur beatae, voluptates harum non aliquam, earum nihil blanditiis, asperiores quaerat placeat ducimus officiis iure dolorem alias modi perspiciatis nulla obcaecati incidunt?</p>
+    
+</body>
+</html>
