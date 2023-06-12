@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+    <picture id="imagen-centro">
+        <source media="(max-width: 500px)" srcset="img/car300.jpg" type="image/jpg">
+        <source media="(max-width: 700px)" srcset="img/car500.jpg" type="image/jpg">
+        <source media="(max-width: 1013px)" srcset="img/car700.jpg" type="image/jpg">
+        <img src="img/car1000.jpg" alt="Imagen de um carro">
+    </picture>
+</body>
+</html>

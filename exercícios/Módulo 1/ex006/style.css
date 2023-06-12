@@ -1,0 +1,34 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+body {
+    background-color: #D2E8E3;
+}
+
+main {
+    background-color: #ffffff;
+    width: 700px;
+    border-radius: 15px;
+    padding: 8px;
+    margin: auto;
+}
+
+h1 {
+    color: #0F6466;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    color: #D8B08C;
+}
+
+h3 {
+    font-family: serif;
+    color: #2C3532;
+}
+
+p {
+    text-indent: 10px;
+}

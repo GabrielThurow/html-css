@@ -1,0 +1,29 @@
+@charset "UTF-8"; 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+body {
+    background-color: #BF9169;
+}
+
+main {
+    background-color: #F2E3D5;
+    width: 700px;
+    border-radius: 15px;
+    padding: 8px;
+    margin: auto;
+}
+
+h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    color: #8C5E35;
+}
+
+h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #403117;
+}
+
+p {
+    text-indent: 10px;
+}

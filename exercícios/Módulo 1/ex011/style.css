@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+body {
+    background-color: #0D0D0D;
+}
+
+h1 {
+    color: #F205E2;
+    text-align: center;
+}
+
+p {
+    text-indent: 10px;
+    color: #ffffff;
+    text-align: center;
+}
+
+#imagen-centro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

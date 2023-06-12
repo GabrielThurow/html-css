@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+body {
+    background-color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+}
+
+p {
+    color: #fff;
+    text-align: center;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
